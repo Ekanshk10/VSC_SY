@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+body{
+    position: relative;
+    padding: 2rem 2rem;
+    background-color: 	#F8F8F8;
+}
+.profile-img{
+    position: absolute;
+    height: 7rem;
+    width: 7rem;
+    border-radius: 15px;
+    right: 4rem;
+}
+input[type="file"] {
+    display: none;
+}
+  
+.upload-p {
+    position: absolute;
+    top: 10rem;
+    right: 4rem;
+    border: 1px solid #ccc;
+    display: inline-block;
+    padding: 6px 12px;
+    cursor: pointer;
+    border-radius: 15px;
+}
+#username{
+    position: absolute;
+    top: 12rem;
+    left: 2rem;
+    font-size: 15px;
+    color: #666;
+}
+
+#user-input{
+    position: absolute;
+    top: 13.5rem;
+    width: 75%;
+    height: 2rem;
+    border: 0.5px solid #888;
+    border-radius: 5px;
+    padding-left: 0.5rem;
+}
+
+#name{
+    position: absolute;
+    top: 16.5rem;
+    left: 2rem;
+    font-size: 15px;
+    color: #666;
+}
+
+#name-input{
+    position: absolute;
+    top: 18rem;
+    width: 75%;
+    height: 2rem;
+    border: 0.5px solid #888;
+    border-radius: 5px;
+    padding-left: 0.5rem;
+}
+
+#mail{
+    position: absolute;
+    top: 21rem;
+    left: 2rem;
+    font-size: 15px;
+    color: #666;
+}
+
+#mail-input{
+    position: absolute;
+    top: 22.5rem;
+    width: 75%;
+    height: 2rem;
+    border: 0.5px solid #888;
+    border-radius: 5px;
+    padding-left: 0.5rem;
+}
+
+#user-input:hover, #name-input:hover, #mail-input:hover{
+    border: 2px solid rgb(255, 98, 0);
+}
+
+#save{
+    position: absolute;
+    left: 10rem;
+    top: 28rem;
+    height: 4rem;
+    width: 10rem;
+    font-size: 20px;
+    border: 1px solid white;
+    color: white;
+    border-radius: 5px;
+    background-color: rgb(255, 98, 0);
+}
+
+#save:hover{
+    transition: .5s;
+    border-radius: 15px;
+    color: rgb(255, 98, 0);
+    border: 1px solid rgb(255, 98, 0);
+    background-color: white;
+    cursor: pointer;
+}
+
+#cancle{
+    position: absolute;
+    top: 28rem;
+    right: 10rem;
+    height: 4rem;
+    width: 10rem;
+    font-size: 20px;
+    border: 1px solid white;
+    border-radius: 5px;
+    color: white;
+    background-color: rgb(255, 98, 0);
+}
+
+#cancle:hover{
+    transition: .5s;
+    border-radius: 15px;
+    color: rgb(255, 98, 0);
+    border: 1px solid rgb(255, 98, 0);
+    background-color: white;
+    cursor: pointer;
+}
